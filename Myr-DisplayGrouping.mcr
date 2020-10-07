@@ -4,7 +4,7 @@ Last modified by: OBOS (Oscar.Ragnerby@obos.se)
 
 Shows the Grouping tag at the element 
 
-OR - 1.01 - 13.09.2019 - Displays all children mapx
+OR - 1.02 - 07.10.2020 - Origin point at text, ElementRoof text moved to center and tsl now attached to elementgroup
 #End
 #Type O
 #NumBeamsReq 0
@@ -13,7 +13,7 @@ OR - 1.01 - 13.09.2019 - Displays all children mapx
 #ImplInsert 1
 #FileState 1
 #MajorVersion 1
-#MinorVersion 1
+#MinorVersion 2
 #KeyWords 
 #BeginContents
 /// <summary Lang=en>
@@ -28,11 +28,12 @@ OR - 1.01 - 13.09.2019 - Displays all children mapx
 /// .
 /// </remark>
 
-/// <version  value="1.01" date="13.09.2019"></version>
+/// <version  value="1.02" date="07.10.2020"></version>
 
 /// <history>
 /// OR - 1.00 - 02.09.2019 - Pilot version
 /// OR - 1.01 - 13.09.2019 - Displays all children mapx
+/// OR - 1.02 - 07.10.2020 - Origin point at text, ElementRoof text moved to center and tsl now attached to elementgroup 
 /// </history>
 
 double vectorTolerance = Unit(0.01,"mm");
